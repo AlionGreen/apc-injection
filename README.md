@@ -1,4 +1,4 @@
-# Process Injection: QueueUserAPC or APC Injection
+# Process Injection: APC Injection
 this repository contains POC for three variants of APC Injection.
 
 - Normal APC Injection or Queue an APC to all of the target process threads.
