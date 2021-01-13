@@ -65,7 +65,7 @@ int main() {
 			HANDLE target_thread_handle = OpenThread(THREAD_ALL_ACCESS, NULL, te.th32ThreadID);
 
 			if (QueueUserAPC((PAPCFUNC)target_process_buffer, target_thread_handle, NULL)) {
-				printf("adding to APC queue of thread id %d\n", te.th32ThreadID);
+				printf("Queue an APC to thread id %d\n", te.th32ThreadID);
 			}
 
 		}
